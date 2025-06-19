@@ -13,3 +13,81 @@
 .garamond {
             font-family: Garamond, Garamond, Garamond;
         }
+
+.roman {
+            font-family: Times New Roman, Times New Roman, Times New Roman;
+            list-style-type: upper-roman;
+        }
+
+.border{
+            border: 3px double black;
+        }
+
+body {
+            background-color: rgb(12, 206, 141);
+        }
+
+#header {
+    background-color: #abacab;
+    padding: 10px;
+}
+
+#maincontainer {
+    float: left;
+    width: 100%;
+}
+
+#container {
+    margin: 0 auto;
+    width: 100%
+}
+
+#content {
+    clear: left;
+    float: left;
+    width: 65%;
+    padding: 20px 0;
+    margin: 0 0 0 5%;
+    display: inline;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    padding: 20px 0;
+    margin: 0;
+    display: inline;
+    background-color: #CCCCCC;
+}
+
+#menu {
+    float: left;
+    width : 100%;
+    background-color: rgb(0, 116, 77);
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline;
+}
+
+#menu ul a {
+    display: block;
+    text-decoration: none;
+    border-right: 2px solid #FFFFFF;
+    padding: 3px 10px;
+    float: left;
+    color: #000000;
+}
+
+#menu ul a:hover {
+    background-color: #FFFFFF;
+}
+
+#footer {
+    clear: left;
+    background-color: #CCCCCC;
+    text-align: center;
+    padding: 20px;
+    height: 1%;
+}
