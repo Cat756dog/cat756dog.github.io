@@ -57,13 +57,13 @@ body {
     padding: 20px 0;
     margin: 0;
     display: inline;
-    background-color: #CCCCCC;
+    border: 3px black;
 }
 
 #menu {
     float: left;
     width : 100%;
-    background-color: rgb(0, 116, 77);
+    background-image: linear-gradient(to right, rgb(28, 146, 2), rgb(87, 255, 213));
 }
 
 #menu ul li {
@@ -74,14 +74,14 @@ body {
 #menu ul a {
     display: block;
     text-decoration: none;
-    border-right: 2px solid #FFFFFF;
+    border-right: 2px solid #464646;
     padding: 3px 10px;
     float: left;
-    color: #000000;
+    color: #ffffff;
 }
 
 #menu ul a:hover {
-    background-color: #FFFFFF;
+    background-color: #000000;
 }
 
 #footer {
@@ -90,4 +90,25 @@ body {
     text-align: center;
     padding: 20px;
     height: 1%;
+}
+
+#white {
+    background-color: white;
+    
+}
+
+.comic {
+    font-family: "Comic Sans MS", "Comic Sans", Comic Sans MS;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#sidebar2 {
+    float: right;
+    width: 30%;
+    padding: 20px 0;
+    margin: 0;
+    display: inline;
 }
